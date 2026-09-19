@@ -1,0 +1,19 @@
+Command:
+curl -s https://api.github.com/repos/arunraj5641/mcino-Introduction-to-Git-and-GitHub/pulls/1
+
+Output:
+{
+  "number": 1,
+  "state": "open",
+  "title": "Fix typo in simple interest script",
+  "head": {
+    "label": "arunraj5641:bug-fix-revert",
+    "ref": "bug-fix-revert",
+    "repo": {
+      "full_name": "arunraj5641/mcino-Introduction-to-Git-and-GitHub"
+    }
+  },
+  "base": {
+    "ref": "main"
+  }
+}
